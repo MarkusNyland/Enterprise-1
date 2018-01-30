@@ -1,7 +1,11 @@
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+package JpaDatabase;
+
+import org.hibernate.validator.constraints.NotBlank;
+import org.hibernate.validator.constraints.Range;
+
+import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 @Entity
 public class Quiz {
@@ -9,18 +13,33 @@ public class Quiz {
     @Id @GeneratedValue
     private Long id;
 
+    @Column (unique = true)
+    @NotBlank
+    @Size(min = 4, max = 256)
     private String question;
 
+    @NotBlank
+    @Size (min = 2, max = 128)
     private String answer1;
 
+    @NotBlank
+    @Size (min = 2, max = 128)
     private String answer2;
 
+    @NotBlank
+    @Size (min = 2, max = 128)
     private String answer3;
 
+    @NotBlank
+    @Size (min = 2, max = 128)
     private String answer4;
 
+    @Column (unique = true)
+    @NotNull
+    @Range(min = 0, max = 3)
     private Long rightAnswer;
 
+    @NotNull
     @OneToOne
     private SubCategory subCategory;
 

@@ -1,8 +1,9 @@
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
-import java.sql.Array;
+package JpaDatabase;
+
+import org.hibernate.validator.constraints.NotBlank;
+
+import javax.persistence.*;
+import javax.validation.constraints.Size;
 import java.util.Arrays;
 import java.util.List;
 
@@ -11,6 +12,9 @@ public class Category {
     @Id @GeneratedValue
     private Long id;
 
+    @Column (unique = true)
+    @NotBlank
+    @Size (min = 2, max = 128)
     private String name;
 
     @OneToMany(mappedBy = "category") //spørre om fetch type.
