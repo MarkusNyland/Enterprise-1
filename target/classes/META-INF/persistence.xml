@@ -15,7 +15,7 @@
 
 
 
-    <persistence-unit name="H2-Database" transaction-type="RESOURCE_LOCAL">
+    <persistence-unit name="H2-Manual" transaction-type="RESOURCE_LOCAL">
         <!--
         RESOURCE_LOCAL means that we handle the "transactions" manually, which is the case when using
         JPA/Hibernate in Java Standard Edition (SE) and not JEE. We will see
@@ -37,6 +37,15 @@
             <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
             <!-- This does show on the console the SQL statements executed by Hibernate -->
             <property name="hibernate.show_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+
+
+
+    <persistence-unit name="JTA" transaction-type="JTA">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <properties>
+            <property name="wildfly.jpa.default-unit" value="true"/>
         </properties>
     </persistence-unit>
 </persistence>

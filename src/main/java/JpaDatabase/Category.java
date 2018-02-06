@@ -17,7 +17,7 @@ public class Category {
     @Size (min = 2, max = 128)
     private String name;
 
-    @OneToMany(mappedBy = "category") //spørre om fetch type.
+    @OneToMany(mappedBy = "category", cascade = CascadeType.ALL) //spørre om fetch type.
     private List<SubCategory> subCategories;
 
     public Category() {

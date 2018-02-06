@@ -11,6 +11,8 @@
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+      <wildfly.version>10.1.0.Final</wildfly.version>
+      <jbossTarget>${basedir}/target/downloaded_Wildfly</jbossTarget>
   </properties>
 
   <dependencies>
@@ -57,6 +59,23 @@
       <version>2.2.6</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.wildfly.arquillian/wildfly-arquillian-container-managed -->
+    <dependency>
+      <groupId>org.wildfly.arquillian</groupId>
+      <artifactId>wildfly-arquillian-container-managed</artifactId>
+      <version>2.1.0.Final</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.jboss.arquillian.junit/arquillian-junit-container -->
+    <dependency>
+      <groupId>org.jboss.arquillian.junit</groupId>
+      <artifactId>arquillian-junit-container</artifactId>
+      <version>1.2.1.Final</version>
+      <scope>test</scope>
+    </dependency>
+
+
     <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
     <dependency>
       <groupId>com.h2database</groupId>
@@ -67,4 +86,56 @@
 
   </dependencies>
 
+    <build>
+        <plugins>
+
+        <!-- Used to download and unpack JBoss/Wildfly automatically before running the tests-->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-dependency-plugin</artifactId>
+            <executions>
+                <execution>
+                    <id>unpack</id>
+                    <phase>process-test-classes</phase>
+                    <goals>
+                        <goal>unpack</goal>
+                    </goals>
+                    <configuration>
+                        <artifactItems>
+                            <artifactItem>
+                                <groupId>org.wildfly</groupId>
+                                <artifactId>wildfly-dist</artifactId>
+                                <version>${wildfly.version}</version>
+                                <type>zip</type>
+                                <overWrite>false</overWrite>
+                                <outputDirectory>${jbossTarget}</outputDirectory>
+                            </artifactItem>
+                        </artifactItems>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.8</version>
+                <executions>
+                    <execution>
+                        <id>Rename Wildfly folder</id>
+                        <phase>process-test-classes</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <target>
+                                <move file="${jbossTarget}/wildfly-${wildfly.version}"
+                                      tofile="${jbossTarget}/wildfly"/>
+                            </target>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

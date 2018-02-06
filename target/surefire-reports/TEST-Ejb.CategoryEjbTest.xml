@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="Ejb.CategoryEjbTest" time="6.319" errors="1" skipped="0">
+  <properties>
+    <property name="idea.version" value="2017.3.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="NO"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\marku\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Maven\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\marku\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\Downloads\Programs\Ruby\Ruby23-x64\bin;C:\Program Files (x86)\Maven\apache-maven-3.3.9\bin;C:\Users\marku\AppData\Local\Microsoft\WindowsApps;C:\Users\marku\AppData\Roaming\nvm;C:\Program Files\nodejs;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\marku"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="marku"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.3.4 clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="no"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Ejb.CategoryEjbTest" name="Ejb.CategoryEjbTest" time="6.319">
+    <error message="Cannot deploy test.war: {&quot;WFLYCTL0062: Composite operation failed and was rolled back. Steps that failed:&quot; =&gt; {&quot;Operation step-1&quot; =&gt; {&quot;WFLYCTL0080: Failed services&quot; =&gt; {&quot;jboss.deployment.unit.\&quot;test.war\&quot;.POST_MODULE&quot; =&gt; &quot;org.jboss.msc.service.StartException in service jboss.deployment.unit.\&quot;test.war\&quot;.POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment \&quot;test.war\&quot;
+    Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class Ejb.ResetEjb with ClassLoader ModuleClassLoader for Module \&quot;deployment.test.war:main\&quot; from Service Module Loader
+    Caused by: java.lang.NoClassDefFoundError: JpaDatabase/Quiz
+    Caused by: java.lang.ClassNotFoundException: JpaDatabase.Quiz from [Module \&quot;deployment.test.war:main\&quot; from Service Module Loader]&quot;},&quot;WFLYCTL0412: Required services that are not installed:&quot; =&gt; [&quot;jboss.deployment.unit.\&quot;test.war\&quot;.POST_MODULE&quot;],&quot;WFLYCTL0180: Services with missing/unavailable dependencies&quot; =&gt; undefined}}}" type="org.jboss.arquillian.container.spi.client.container.DeploymentException">org.jboss.arquillian.container.spi.client.container.DeploymentException: Cannot deploy test.war: {&quot;WFLYCTL0062: Composite operation failed and was rolled back. Steps that failed:&quot; =&gt; {&quot;Operation step-1&quot; =&gt; {&quot;WFLYCTL0080: Failed services&quot; =&gt; {&quot;jboss.deployment.unit.\&quot;test.war\&quot;.POST_MODULE&quot; =&gt; &quot;org.jboss.msc.service.StartException in service jboss.deployment.unit.\&quot;test.war\&quot;.POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment \&quot;test.war\&quot;
+    Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class Ejb.ResetEjb with ClassLoader ModuleClassLoader for Module \&quot;deployment.test.war:main\&quot; from Service Module Loader
+    Caused by: java.lang.NoClassDefFoundError: JpaDatabase/Quiz
+    Caused by: java.lang.ClassNotFoundException: JpaDatabase.Quiz from [Module \&quot;deployment.test.war:main\&quot; from Service Module Loader]&quot;},&quot;WFLYCTL0412: Required services that are not installed:&quot; =&gt; [&quot;jboss.deployment.unit.\&quot;test.war\&quot;.POST_MODULE&quot;],&quot;WFLYCTL0180: Services with missing/unavailable dependencies&quot; =&gt; undefined}}}
+	at org.jboss.as.arquillian.container.ArchiveDeployer.deployInternal(ArchiveDeployer.java:184)
+	at org.jboss.as.arquillian.container.ArchiveDeployer.deployInternal(ArchiveDeployer.java:162)
+	at org.jboss.as.arquillian.container.ArchiveDeployer.deploy(ArchiveDeployer.java:91)
+	at org.jboss.as.arquillian.container.CommonDeployableContainer.deploy(CommonDeployableContainer.java:244)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$3.call(ContainerDeployController.java:151)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$3.call(ContainerDeployController.java:118)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.executeOperation(ContainerDeployController.java:239)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.deploy(ContainerDeployController.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createContainerContext(ContainerDeploymentContextHandler.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createDeploymentContext(ContainerDeploymentContextHandler.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.container.impl.client.container.DeploymentExceptionHandler.verifyExpectedExceptionDuringDeploy(DeploymentExceptionHandler.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:62)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$1.perform(ContainerDeployController.java:92)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$1.perform(ContainerDeployController.java:77)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.forEachDeployment(ContainerDeployController.java:232)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.forEachManagedDeployment(ContainerDeployController.java:212)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.deployManaged(ContainerDeployController.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:62)
+	at org.jboss.arquillian.container.test.impl.client.ContainerEventController.execute(ContainerEventController.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createClassContext(TestContextHandler.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.beforeClass(EventTestRunnerAdaptor.java:80)
+	at org.jboss.arquillian.junit.Arquillian$2.evaluate(Arquillian.java:163)
+	at org.jboss.arquillian.junit.Arquillian.multiExecute(Arquillian.java:350)
+	at org.jboss.arquillian.junit.Arquillian.access$200(Arquillian.java:54)
+	at org.jboss.arquillian.junit.Arquillian$3.evaluate(Arquillian.java:177)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:115)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>18:02:01,627 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+18:02:01,980 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+18:02:02,044 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+18:02:03,047 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+18:02:03,065 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.4.0.Final
+18:02:03,074 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.4.0.Final
+18:02:03,113 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+18:02:03,119 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker &apos;default&apos; has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+18:02:03,123 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+18:02:03,144 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.21.Final
+18:02:03,149 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+18:02:03,159 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+18:02:03,236 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+18:02:03,237 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+18:02:03,256 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+18:02:03,265 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+18:02:03,290 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+18:02:03,292 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 1.4.0.Final starting
+18:02:03,294 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+18:02:03,299 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+18:02:03,301 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+18:02:03,459 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path &apos;D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame\target\downloaded_Wildfly\wildfly/welcome-content&apos; with options [directory-listing: &apos;false&apos;, follow-symlink: &apos;false&apos;, case-sensitive: &apos;true&apos;, safe-symlink-paths: &apos;[]&apos;]
+18:02:03,481 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+18:02:03,483 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+18:02:03,488 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+18:02:03,490 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+18:02:03,745 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+18:02:03,808 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame\target\downloaded_Wildfly\wildfly\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+18:02:03,837 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame\target\downloaded_Wildfly\wildfly\standalone\deployments
+18:02:03,955 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+18:02:04,000 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-5) ISPN000128: Infinispan version: Infinispan &apos;Chakra&apos; 8.2.4.Final
+18:02:04,019 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+18:02:04,030 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+18:02:04,031 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+18:02:04,032 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+18:02:04,032 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+18:02:04,033 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+18:02:04,034 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+18:02:04,085 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+18:02:04,220 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+18:02:04,221 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+18:02:04,222 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 2927ms - Started 331 of 577 services (393 services are lazy, passive or on-demand)
+18:02:05,066 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame\target\downloaded_Wildfly\wildfly\standalone\data\content\af\43c40ee8316936b4cd0cb08712990350147893\content
+18:02:05,080 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of &quot;test.war&quot; (runtime-name: &quot;test.war&quot;)
+18:02:05,609 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for H2-Manual
+18:02:05,609 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for JTA
+18:02:05,689 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 23) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service &apos;test.war#H2-Manual&apos;
+18:02:05,689 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service &apos;test.war#JTA&apos;
+18:02:05,704 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-3) MSC000001: Failed to start service jboss.deployment.unit.&quot;test.war&quot;.POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.unit.&quot;test.war&quot;.POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment &quot;test.war&quot;
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:154)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class Ejb.ResetEjb with ClassLoader ModuleClassLoader for Module &quot;deployment.test.war:main&quot; from Service Module Loader
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:70)
+	at org.jboss.as.ee.metadata.MethodAnnotationAggregator.runtimeAnnotationInformation(MethodAnnotationAggregator.java:57)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.handleAnnotations(InterceptorAnnotationProcessor.java:106)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:91)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:76)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	... 5 more
+Caused by: java.lang.NoClassDefFoundError: JpaDatabase/Quiz
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.jboss.as.server.deployment.reflect.ClassReflectionIndex.&lt;init&gt;(ClassReflectionIndex.java:80)
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:66)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: JpaDatabase.Quiz from [Module &quot;deployment.test.war:main&quot; from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	... 15 more
+
+18:02:05,713 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 65) HHH000204: Processing PersistenceUnitInfo [
+	name: JTA
+	...]
+18:02:05,713 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 23) HHH000204: Processing PersistenceUnitInfo [
+	name: H2-Manual
+	...]
+18:02:05,795 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 65) HHH000412: Hibernate Core {5.0.10.Final}
+18:02:05,797 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 65) HHH000206: hibernate.properties not found
+18:02:05,800 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 65) HHH000021: Bytecode provider name : javassist
+18:02:05,851 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 65) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+18:02:05,905 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 4) WFLYCTL0013: Operation (&quot;add&quot;) failed - address: ([(&quot;deployment&quot; =&gt; &quot;test.war&quot;)]) - failure description: {
+    &quot;WFLYCTL0080: Failed services&quot; =&gt; {&quot;jboss.deployment.unit.\&quot;test.war\&quot;.POST_MODULE&quot; =&gt; &quot;org.jboss.msc.service.StartException in service jboss.deployment.unit.\&quot;test.war\&quot;.POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment \&quot;test.war\&quot;
+    Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class Ejb.ResetEjb with ClassLoader ModuleClassLoader for Module \&quot;deployment.test.war:main\&quot; from Service Module Loader
+    Caused by: java.lang.NoClassDefFoundError: JpaDatabase/Quiz
+    Caused by: java.lang.ClassNotFoundException: JpaDatabase.Quiz from [Module \&quot;deployment.test.war:main\&quot; from Service Module Loader]&quot;},
+    &quot;WFLYCTL0412: Required services that are not installed:&quot; =&gt; [&quot;jboss.deployment.unit.\&quot;test.war\&quot;.POST_MODULE&quot;],
+    &quot;WFLYCTL0180: Services with missing/unavailable dependencies&quot; =&gt; undefined
+}
+18:02:05,907 ERROR [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0021: Deploy of deployment &quot;test.war&quot; was rolled back with the following failure message: 
+{
+    &quot;WFLYCTL0080: Failed services&quot; =&gt; {&quot;jboss.deployment.unit.\&quot;test.war\&quot;.POST_MODULE&quot; =&gt; &quot;org.jboss.msc.service.StartException in service jboss.deployment.unit.\&quot;test.war\&quot;.POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment \&quot;test.war\&quot;
+    Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class Ejb.ResetEjb with ClassLoader ModuleClassLoader for Module \&quot;deployment.test.war:main\&quot; from Service Module Loader
+    Caused by: java.lang.NoClassDefFoundError: JpaDatabase/Quiz
+    Caused by: java.lang.ClassNotFoundException: JpaDatabase.Quiz from [Module \&quot;deployment.test.war:main\&quot; from Service Module Loader]&quot;},
+    &quot;WFLYCTL0412: Required services that are not installed:&quot; =&gt; [&quot;jboss.deployment.unit.\&quot;test.war\&quot;.POST_MODULE&quot;],
+    &quot;WFLYCTL0180: Services with missing/unavailable dependencies&quot; =&gt; undefined
+}
+18:02:05,911 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service &apos;test.war#H2-Manual&apos;
+18:02:05,911 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 23) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service &apos;test.war#JTA&apos;
+18:02:05,995 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment test.war (runtime-name: test.war) in 87ms
+18:02:05,996 INFO  [org.jboss.as.controller] (management-handler-thread - 4) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit.&quot;test.war&quot;.POST_MODULE
+
+</system-out>
+    <system-err>feb 05, 2018 6:02:01 PM org.jboss.as.arquillian.container.managed.ManagedDeployableContainer startInternal
+WARNING: Bundles path is deprecated and no longer used.
+feb 05, 2018 6:02:01 PM org.jboss.as.arquillian.container.managed.ManagedDeployableContainer startInternal
+INFO: Starting container with: [&quot;C:\Program Files\Java\jdk1.8.0_101\bin\java&quot;, -D[Standalone], -Xms64m, -Xmx512m, -Djava.net.preferIPv4Stack=true, -Djava.awt.headless=true, -Djboss.modules.system.pkgs=org.jboss.byteman, -ea, -Djboss.home.dir=D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame\target\downloaded_Wildfly\wildfly, -Dorg.jboss.boot.log.file=D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame\target\downloaded_Wildfly\wildfly\standalone\log\server.log, -Dlogging.configuration=file:D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame\target\downloaded_Wildfly\wildfly\standalone\configuration\logging.properties, -jar, D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame\target\downloaded_Wildfly\wildfly\jboss-modules.jar, -mp, D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame\target\downloaded_Wildfly\wildfly\modules, org.jboss.as.standalone, -Djboss.home.dir=D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame\target\downloaded_Wildfly\wildfly, -Djboss.server.base.dir=D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame\target\downloaded_Wildfly\wildfly\standalone, -Djboss.server.log.dir=D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame\target\downloaded_Wildfly\wildfly\standalone\log, -Djboss.server.config.dir=D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame\target\downloaded_Wildfly\wildfly\standalone\configuration]
+feb 05, 2018 6:02:01 PM org.jboss.remoting3.EndpointImpl &lt;clinit&gt;
+INFO: JBoss Remoting version 5.0.0.Final
+feb 05, 2018 6:02:01 PM org.xnio.Xnio &lt;clinit&gt;
+INFO: XNIO version 3.5.1.Final
+feb 05, 2018 6:02:01 PM org.xnio.nio.NioXnio &lt;clinit&gt;
+INFO: XNIO NIO Implementation Version 3.5.1.Final
+feb 05, 2018 6:02:01 PM org.wildfly.security.Version &lt;clinit&gt;
+INFO: ELY00001: WildFly Elytron version 1.1.0.Final
+feb 05, 2018 6:02:06 PM org.jboss.as.arquillian.container.ArchiveDeployer undeploy
+WARN: Failed to undeploy test.war: {&quot;WFLYCTL0062: Composite operation failed and was rolled back. Steps that failed:&quot; =&gt; {&quot;Operation step-1&quot; =&gt; &quot;WFLYCTL0216: Management resource &apos;[(\&quot;deployment\&quot; =&gt; \&quot;test.war\&quot;)]&apos; not found&quot;}}
+</system-err>
+  </testcase>
+</testsuite>

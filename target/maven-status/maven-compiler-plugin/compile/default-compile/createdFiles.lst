@@ -1,0 +1,4 @@
+EjbBusinessLogic\CategoryEjb.class
+JpaDatabase\Category.class
+JpaDatabase\Quiz.class
+JpaDatabase\SubCategory.class
