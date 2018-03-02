@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<project name="maven-antrun-" default="main"  >
-<target name="main">
-  <move file="D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame/target/downloaded_Wildfly/wildfly-10.1.0.Final" tofile="D:\Documents\Skolearbeid\Enterprise 1\Task1\QuizGame/target/downloaded_Wildfly/wildfly"/>
-</target>
-</project>
