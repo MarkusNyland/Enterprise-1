@@ -37,6 +37,9 @@ public class CategoryEjb {
 
         entityManager.persist(subCategory);
 
+        category.setSubCategories(subCategory);
+        entityManager.merge(category);
+
         return subCategory.getId();
     }
 

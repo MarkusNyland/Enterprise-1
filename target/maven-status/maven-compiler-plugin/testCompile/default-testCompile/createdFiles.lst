@@ -1,6 +1,6 @@
-Ejb\ResetEjbFancy.class
-JpaEntities\QuizEntityTest.class
-Ejb\CategoryEjbTest.class
-JpaEntities\CategoryEntityTest.class
-Ejb\ResetEjb.class
-JpaEntities\EntityTestBase.class
+JEE\JpaEntities\CategoryEntityTest.class
+JEE\Ejb\CategoryEjbTest.class
+JEE\Ejb\ResetEjbFancy.class
+JEE\JpaEntities\EntityTestBase.class
+JEE\JpaEntities\QuizEntityTest.class
+JEE\Ejb\ResetEjb.class

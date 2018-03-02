@@ -7,6 +7,7 @@
         <setting name="provider-name" value="" />
         <datasource-mapping>
           <factory-entry name="H2-Database" value="3773efc6-ae3b-4b39-aed8-4fe3d8a9f472" />
+          <factory-entry name="H2-JTA" />
           <factory-entry name="H2-Manual" />
           <factory-entry name="JTA" />
         </datasource-mapping>

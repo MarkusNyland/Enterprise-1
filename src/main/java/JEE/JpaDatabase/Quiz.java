@@ -37,7 +37,7 @@ public class Quiz {
     @Column (unique = true)
     @NotNull
     @Range(min = 0, max = 3)
-    private Long rightAnswer;
+    private int rightAnswer;
 
     @NotNull
     @OneToOne
@@ -94,11 +94,11 @@ public class Quiz {
         this.answer4 = answer4;
     }
 
-    public Long getRightAnswer() {
+    public int getRightAnswer() {
         return rightAnswer;
     }
 
-    public void setRightAnswer(Long rightAnswer) {
+    public void setRightAnswer(int rightAnswer) {
         this.rightAnswer = rightAnswer;
     }
 

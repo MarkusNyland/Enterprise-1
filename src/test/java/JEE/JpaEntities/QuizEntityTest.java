@@ -20,7 +20,7 @@ public class QuizEntityTest extends EntityTestBase {
         quiz.setAnswer2("Olav Tryggvason");
         quiz.setAnswer3("Harald Hårfagre");
         quiz.setAnswer4("Harald Gråfell");
-        quiz.setRightAnswer(1L);
+        quiz.setRightAnswer(1);
 
         assertNull(quiz.getId());
 
@@ -44,7 +44,7 @@ public class QuizEntityTest extends EntityTestBase {
         q1.setAnswer2("Olav Tryggvason");
         q1.setAnswer3("Harald Hårfagre");
         q1.setAnswer4("Harald Gråfell");
-        q1.setRightAnswer(1L);
+        q1.setRightAnswer(1);
 
         c1.setSubCategories(sc1);
         sc1.setCategory(c1);
@@ -84,7 +84,7 @@ public class QuizEntityTest extends EntityTestBase {
         jpaCatQuiz.setAnswer2("Møøø");
         jpaCatQuiz.setAnswer3("Woof");
         jpaCatQuiz.setAnswer4("Pip");
-        jpaCatQuiz.setRightAnswer(0L);
+        jpaCatQuiz.setRightAnswer(0);
         jpaCatQuiz.setSubCategory(jpaSubCategory);
 
         Quiz jpaDogQuiz = new Quiz();
@@ -93,7 +93,7 @@ public class QuizEntityTest extends EntityTestBase {
         jpaDogQuiz.setAnswer2("Møøø");
         jpaDogQuiz.setAnswer3("Woof");
         jpaDogQuiz.setAnswer4("Pip");
-        jpaDogQuiz.setRightAnswer(1L);
+        jpaDogQuiz.setRightAnswer(1);
         jpaDogQuiz.setSubCategory(jpaSubCategory);
 
         Quiz ejbCowQuiz = new Quiz();
@@ -102,7 +102,7 @@ public class QuizEntityTest extends EntityTestBase {
         ejbCowQuiz.setAnswer2("Møøø");
         ejbCowQuiz.setAnswer3("Woof");
         ejbCowQuiz.setAnswer4("Pip");
-        ejbCowQuiz.setRightAnswer(2L);
+        ejbCowQuiz.setRightAnswer(2);
         ejbCowQuiz.setSubCategory(ejbSubCategory);
 
         Quiz jsfFugleQuiz = new Quiz();
@@ -111,7 +111,7 @@ public class QuizEntityTest extends EntityTestBase {
         jsfFugleQuiz.setAnswer2("Møøø");
         jsfFugleQuiz.setAnswer3("Woof");
         jsfFugleQuiz.setAnswer4("Pip");
-        jsfFugleQuiz.setRightAnswer(3L);
+        jsfFugleQuiz.setRightAnswer(3);
         jsfFugleQuiz.setSubCategory(jsfSubCategory);
 
         assertTrue(persistInTransaction(jeeCategory,jpaSubCategory,ejbSubCategory,jsfSubCategory,jpaCatQuiz,jpaDogQuiz,ejbCowQuiz,jsfFugleQuiz));
